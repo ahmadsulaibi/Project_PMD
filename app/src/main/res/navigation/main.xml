@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.ex.Pocket_Data.PDF_Fragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_p_d_f_" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.ex.Pocket_Data.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ex.Pocket_Data.MainActivity"
+    android:background="@color/white"
+    >
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="310sp"
+        android:layout_height="50sp"
+        android:backgroundTint="@color/PastalRed"
+        android:text="@string/login"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="310sp"
+        android:layout_height="50sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:text="@string/Register"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".95" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="346dp"
+        android:layout_height="406dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="274dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/landasansmedium"
+        android:text="Pocket Document"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="55sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/TestBeautiful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Space for what matters"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:fontFamily="@font/bilieve"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

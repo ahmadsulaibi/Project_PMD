@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DMa</string>
+    <string name="Register">Register</string>
+    <string name="forgot_email">Forgot email?</string>
+    <string name="Email">Email </string>
+    <string name="Password"> Password</string>
+    <string name="todo">TODO</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="profile_title">profile</string>
+    <string name="others">others</string>
+    <string name="verrified">verrified</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Login</string>
+    <string name="go">GO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

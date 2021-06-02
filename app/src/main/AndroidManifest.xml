@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ex.Pocket_Data">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="Pocket Data"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.ex.Pocket_Data.PDF" />
+        <activity android:name="com.ex.Pocket_Data.ViewPDFFiles" />
+        <activity android:name="com.ex.Pocket_Data.Forgot_password" />
+        <activity android:name="com.ex.Pocket_Data.MainPage" />
+        <activity android:name="com.ex.Pocket_Data.Register" />
+        <activity android:name="com.ex.Pocket_Data.Login" />
+        <activity android:name="com.ex.Pocket_Data.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
